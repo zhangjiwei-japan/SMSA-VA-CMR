@@ -22,8 +22,8 @@ $ git clone https://github.com/zhangjiwei-japan/SMSA-VA-CMR.git
 ### (2) VEGAS Dataset 
 - The Raw dataset from: https://arxiv.org/abs/1712.01393.
 #### You can also download our prepared [VEGAS](https://drive.google.com/file/d/142VXU9-3P2HcaCWCQVlezRGJguGnHeHD/view?usp=sharing) dataset. 
-- Please create a folder named 'veags' to place the downloaded dataset and set the dataset base path in the code (train_model.py and test_model.py): `base_dir` = "./datasets/vegas/"
-- Place the downloaded dataset in the 'veags' file and load a dataset path in the code (train_model.py and test_model.py): `load_path` = `base_dir` + "your downloaded dataset" <br />
+- Please create a folder named 'veags' to place the downloaded dataset and set the dataset base path in the code: `base_dir` = "./datasets/vegas/"
+- Place the downloaded dataset in the 'veags' file and load a dataset path in the code: `load_path` = `base_dir` + "your downloaded dataset" <br />
 
 You can download and use the model files created by training with SMSA on two different datasets for inference.<br />
 Training/Inference code and configuration files will be added.
