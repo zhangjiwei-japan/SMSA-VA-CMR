@@ -11,10 +11,7 @@ $ git clone https://github.com/zhangjiwei-japan/SMSA-VA-CMR.git
 - CUDA Toolkit Archive ：https://developer.nvidia.com/cuda-toolkit-archive
 - cuDNN Download | NVIDIA Developer ：https://developer.nvidia.com/login
 - PYTORCH : https://pytorch.org/
-#### （3） Libraries required to install the program ：
-```bash
-pip install -r requirements.txt
-```
+
 ## 3. Prepare the datasets
 ### (1) AVE Dataset 
 - AVE dataset can be downloaded from https://drive.google.com/open?id=1FjKwe79e0u96vdjIVwfRQ1V6SoDHe7kK.
@@ -26,6 +23,6 @@ pip install -r requirements.txt
 - The Raw dataset from: https://arxiv.org/abs/1712.01393.
 #### You can also download our prepared [VEGAS](https://drive.google.com/file/d/142VXU9-3P2HcaCWCQVlezRGJguGnHeHD/view?usp=sharing) dataset. 
 - Please create a folder named 'veags' to place the downloaded dataset and set the dataset base path in the code (train_model.py and test_model.py): `base_dir` = "./datasets/vegas/"
-- Place the downloaded dataset in the 'veags' file and load a dataset path in the code (train_model.py and test_model.py): `load_path` = `base_dir` + "your downloaded dataset"
+- Place the downloaded dataset in the 'veags' file and load a dataset path in the code (train_model.py and test_model.py): `load_path` = `base_dir` + "your downloaded dataset" <br />
 You can download and use the model files created by training with SMSA on two different datasets for inference.
 Training/Inference code and configuration files will be added.
